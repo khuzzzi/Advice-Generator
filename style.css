@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202632;
+    flex-direction: column;
+}
+
+.box {
+    height: 40vh;
+    width: 30vw;
+    background-color: #313a49;
+    border-radius: 17px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* light outer shadow */
+                0 6px 20px rgba(0, 0, 0, 0.15); /* darker, larger shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 2vw;
+}
+
+.heading {
+    color: white;
+    font-size: 12px;
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    color: hsl(150, 100%, 66%);
+}
+
+.advice {
+    margin-top: 2vh;
+    width: 90%;
+    font-size: 1.5vw;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.image{
+    display: flex;
+    justify-content: center;;
+}
+
+.image img {
+    margin-top: 3.8vh;
+    width: 80%;
+}
+
+.img-box{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #53ffab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 67%;    
+}
+
+.img-box:hover {
+height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #53ffab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 67%;   
+    box-shadow: #08ff87 6px 2px 16px 0px, #0aff89 -6px -2px 16px 0px;
+}
+.img-box img {
+    padding: 3vh 3vw;
+}
+    
+
+
+@media screen and (max-width : 1024px) {
+    .box {
+        height: 50vh;
+        width: 50vw;
+        background-color: #313a49;
+        border-radius: 17px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* light outer shadow */
+                    0 6px 20px rgba(0, 0, 0, 0.15); /* darker, larger shadow */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 2vw;
+    }
+
+    .heading {
+        color: white;
+        font-size: 2vw;
+        /* margin-bottom: 10px; */
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-top: 5vh;
+        color: hsl(150, 100%, 66%);
+    }
+
+
+    .advice {
+        margin-top: 2vh;
+        width: 90%;
+        font-size: 3vw;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        margin-top: 6.8vh;
+        width: 80%;
+    }
+
+    .img-box{
+        height: 6vh;
+        width: 5vw;
+        border-radius: 50%;
+        background-color: #53ffab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 72%;    
+    }
+    .img-box img {
+        padding: 3vh 3vw;
+    }
+        
+}
+
+@media screen and (max-width : 660px) {
+    .box {
+        height: 50vh;
+        width: 65vw;
+        background-color: #313a49;
+        border-radius: 17px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* light outer shadow */
+                    0 6px 20px rgba(0, 0, 0, 0.15); /* darker, larger shadow */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 2vw;
+    }
+
+    .heading {
+        color: white;
+        font-size: 4vw;
+        /* margin-bottom: 10px; */
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-top: 5vh;
+        color: hsl(150, 100%, 66%);
+    }
+
+
+    .advice {
+        margin-top: 3vh;
+        width: 90%;
+        font-size: 6vw;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        margin-top: 6.8vh;
+        width: 80%;
+    }
+
+    .img-box{
+        height: 8vh;
+        width: 10vw;
+        border-radius: 50%;
+        background-color: #53ffab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 72%;    
+    }
+    .img-box img {
+        padding: 3vh 3vw;
+    }
+}
